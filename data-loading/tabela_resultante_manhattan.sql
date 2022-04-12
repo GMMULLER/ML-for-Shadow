@@ -1,8 +1,10 @@
-CREATE TABLE public.var_radial
+CREATE TABLE public.var_radial_buffer_sky_exposure_temp
 (
     id integer,
-    latitude double precision,
-    longitude double precision,
+    date numeric,
+    exposure numeric,
+    latitude numeric,
+    longitude numeric,
     "position" geometry,
     dec21 numeric,
     june21 numeric,

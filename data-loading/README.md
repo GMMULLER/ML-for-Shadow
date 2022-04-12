@@ -1,4 +1,4 @@
-Essa pasta contém os scripts e recursos utilizados para gerar as instâncias de dados de cada uma das cidades. De um modo geral, o objetivo é criar uma tabela final ("tabela_resultante.sql") em que as entradas são geolocalizadas e possuem as features que serão usadas para treinamento e teste do modelo.  
+Essa pasta contém os scripts e recursos utilizados para gerar as instâncias de dados de cada uma das cidades. De um modo geral, o objetivo é criar uma tabela final ("tabela_resultante_boston.sql") em que as entradas são geolocalizadas e possuem as features que serão usadas para treinamento e teste do modelo.  
 
 Os arquivos .json são usados no QGIS para coletar os dados dos prédios ao redor dos pontos (ferramenta: "Unir atributos pela localização (sumário)").  
 
@@ -29,3 +29,9 @@ O banco de dados e a tabela utilizada para cada uma das cidades tem os seguintes
 - Washington: https://opendata.dc.gov/documents/274f7c2b5f7c4ae19f165d9951057a00/explore 
 
 - Manhattan: https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh
+
+### Dados processados
+
+Os dados já processados pelos scripts de "data-loading" podem ser encontrados em:  
+
+https://drive.google.com/drive/folders/1g-Q9o_KXD40kQNjVVI5P5D7E-xI7_fmf?usp=sharing  
