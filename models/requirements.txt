@@ -1,0 +1,9 @@
+matplotlib
+pandas
+scipy
+psycopg2
+numpy
+wheel
+sklearn
+seaborn
+joblib

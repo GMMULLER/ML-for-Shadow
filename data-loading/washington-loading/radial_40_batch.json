@@ -1,0 +1,314 @@
+[
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line1)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line1"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line2)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line2"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line3)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line3"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line4)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line4"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line5)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line5"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line6)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line6"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line7)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line7"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line8)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line8"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line9)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line9"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line10)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line10"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line11)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line11"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line12)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line12"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line13)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line13"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line14)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line14"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line15)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line15"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line16)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line16"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line17)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line17"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line18)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line18"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line19)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line19"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line20)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line20"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line21)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line21"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line22)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line22"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line23)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line23"
+        }
+    },
+    {
+        "PARAMETERS": {
+            "INPUT": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'tid\\' srid=4326 type=LineString checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"radial_40\\\" (line24)'", 
+            "JOIN": "'postgres://dbname=\\'tccbase_dc\\' host=localhost port=5432 sslmode=disable key=\\'id\\' srid=26985 type=MultiPolygon checkPrimaryKeyUnicity=\\'1\\' table=\\\"public\\\".\\\"building\\\" (geom)'", 
+            "PREDICATE": "[0]", 
+            "JOIN_FIELDS": "['heightroof']", 
+            "SUMMARIES": "[0,3,6]", 
+            "DISCARD_NONMATCHING": "False"
+        }, 
+        "OUTPUTS": {
+            "OUTPUT": "line24"
+        }
+    }
+]
