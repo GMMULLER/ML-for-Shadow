@@ -1,7 +1,7 @@
-Essa pasta contém os scripts necessário para treinar e testar os modelos dado o banco de dados devidamente populado pelos scripts da pasta "../data-loading".  
+This folder contains the necessary scripts to train and test the models, given that the database was previously populated by the scripts in "../data-loading".  
 
-Para executar os arquivos python é necessário criar um abiente virtual a partir do arquivo "requirements.txt".  
+To execute the python files it is necessary to create a virtual environment from the file "requirements.txt".
 
-A pasta "final-tests" contém os scripts usados para fazer a última bateria de testes da monografia (Teste 1, 2 e 3). Os arquivos .sav são binários que contém as escalas utilizadas para normalizar os dados e os modelos treinados em cada cidade/dia. 
+The folder "final-tests" contains the scripts used to run the last set of tests for the dissertation (Test 1, 2 and 3). The .sav files are binaries that contain the scales used to normalize the data and the models trained in each city/day.
 
-O melhor modelo encontrado (referenciado na monografia como M4) é treinado e testado no script "neural-network/nn_best.py".  
+The best model developed (referenced in the dissertation as M4) is trained and tested in the script "neural-network/nn_best.py".
