@@ -1,12 +1,12 @@
-Essa pasta contém os scripts e recursos utilizados para gerar as instâncias de dados de cada uma das cidades. De um modo geral, o objetivo é criar uma tabela final ("tabela_resultante_boston.sql") em que as entradas são geolocalizadas e possuem as features que serão usadas para treinamento e teste do modelo.  
+This folder contains the scripts and resources used to generate the data instances of each city. In general, the goal is to create a final table ("tabela_resultante_boston.sql") in which the entries are geolocated and have the features that are going to be used in training and test.
 
-Os arquivos .json são usados no QGIS para coletar os dados dos prédios ao redor dos pontos (ferramenta: "Unir atributos pela localização (sumário)").  
+The files .json are used in QGIS to collect building data around the points (tool: "Join Attributes by Location (summary)")
+ 
+The "postgis" extension is required to execute the .sql files.
 
-Para que os .sql possam ser executados a extensão "postgis" é necessária. 
+To execute the python scripts it is necessary to create a virtual environment from "requirements.txt".
 
-Para rodar os scripts python um ambiente virtual deve ser criado a partir de "requirements.txt".  
-
-O banco de dados e a tabela utilizada para cada uma das cidades tem os seguintes nomes:  
+The database and table used for each one of the cities have the following names:
 
 - Chicago: tccbase_2 (var_radial_chicago)  
 
@@ -18,7 +18,7 @@ O banco de dados e a tabela utilizada para cada uma das cidades tem os seguintes
 
 - Manhattan: tccbase (var_radial_buffer_sky_exposure_temp)
 
-### Fonte dos dados
+### Data sources
 
 - Chicago: https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8
 
@@ -30,8 +30,8 @@ O banco de dados e a tabela utilizada para cada uma das cidades tem os seguintes
 
 - Manhattan: https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh
 
-### Dados processados
+### Processed Data
 
-Os dados já processados pelos scripts de "data-loading" podem ser encontrados em:  
+The data already processed by the scripts of "data-loading" can be found at:
 
 https://drive.google.com/drive/folders/1g-Q9o_KXD40kQNjVVI5P5D7E-xI7_fmf?usp=sharing  
