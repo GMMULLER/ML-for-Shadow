@@ -27,5 +27,5 @@ success) in any city of the globe or day of the year. Solving these problems env
 utilization of a more complex model, higher quality and quantity of data and the use of
 pre and post processing.  
 
-Keywords: Machine Learning, Neural Network, MLP, Shadow, Cities, Urban Planning,
+**Keywords:** Machine Learning, Neural Network, MLP, Shadow, Cities, Urban Planning,
 Sunlight, Quality of life, Shadow Accumulation  
